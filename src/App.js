@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TodoList from './TodoList';
 import AddTodo from './AddTodo';
 import Filter from './Filter';
+import './App.css';
 
 const TodoApp = () => {
   const [tasks, setTasks] = useState([]);
